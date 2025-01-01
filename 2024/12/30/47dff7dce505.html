@@ -20,12 +20,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"amiibot.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":null},"fold":{"enable":true,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="建筑 建筑摧毁全返还 建筑修复锤子范围生效（5m）  自动化相关蜂蜜 生产放置到附近箱子 10格 无自动填充原料  发酵桶（同上） 生产放置到附近箱子 10格 无自动填充原料  火炬（同上） 火炬类火源将拥有无限燃料，适用于：木火炬、铁火炬、绿火炬、壁灯和火盆 无自动填充原料  熔炉（同上） 生产放置到附近箱子 10格 无自动填充原料  煤炭（同上） 生产放置到附近箱子 10格 无自动填充原料">
+    <meta name="description" content="体验增强 防止食物随时间降解，换句话说，它在耗尽之前保持其最大效益，而不是随时间减少其效果 物品重量-30% 物品堆叠+50% 自动拾取距离翻倍 摸制作台自动修复身上物品 缩短传送时间 传送携带物品限制解除 启动统一建筑网格启用网格对齐的键（RightAlt）切换网格对齐的键（F7）更改默认对齐的键（F6） 制作从附近箱子获取素材，有工作台以工作台为中心（20格） 喊话全图可见">
 <meta property="og:type" content="article">
 <meta property="og:title" content="个人服务器配置记录">
 <meta property="og:url" content="https://amiibot.com/2024/12/30/47dff7dce505.html">
 <meta property="og:site_name" content="谜镇">
-<meta property="og:description" content="建筑 建筑摧毁全返还 建筑修复锤子范围生效（5m）  自动化相关蜂蜜 生产放置到附近箱子 10格 无自动填充原料  发酵桶（同上） 生产放置到附近箱子 10格 无自动填充原料  火炬（同上） 火炬类火源将拥有无限燃料，适用于：木火炬、铁火炬、绿火炬、壁灯和火盆 无自动填充原料  熔炉（同上） 生产放置到附近箱子 10格 无自动填充原料  煤炭（同上） 生产放置到附近箱子 10格 无自动填充原料">
+<meta property="og:description" content="体验增强 防止食物随时间降解，换句话说，它在耗尽之前保持其最大效益，而不是随时间减少其效果 物品重量-30% 物品堆叠+50% 自动拾取距离翻倍 摸制作台自动修复身上物品 缩短传送时间 传送携带物品限制解除 启动统一建筑网格启用网格对齐的键（RightAlt）切换网格对齐的键（F7）更改默认对齐的键（F6） 制作从附近箱子获取素材，有工作台以工作台为中心（20格） 喊话全图可见">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-12-30T16:00:00.000Z">
 <meta property="article:modified_time" content="2024-12-30T16:00:00.000Z">
@@ -112,7 +112,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-6"><a class="nav-link" href="#%E5%BB%BA%E7%AD%91"><span class="nav-number">1.</span> <span class="nav-text">建筑</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%87%AA%E5%8A%A8%E5%8C%96%E7%9B%B8%E5%85%B3"><span class="nav-number"></span> <span class="nav-text">自动化相关</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#%E8%9C%82%E8%9C%9C"><span class="nav-number">1.</span> <span class="nav-text">蜂蜜</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E5%8F%91%E9%85%B5%E6%A1%B6%EF%BC%88%E5%90%8C%E4%B8%8A%EF%BC%89"><span class="nav-number">2.</span> <span class="nav-text">发酵桶（同上）</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E7%81%AB%E7%82%AC%EF%BC%88%E5%90%8C%E4%B8%8A%EF%BC%89"><span class="nav-number">3.</span> <span class="nav-text">火炬（同上）</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E7%86%94%E7%82%89%EF%BC%88%E5%90%8C%E4%B8%8A%EF%BC%89"><span class="nav-number">4.</span> <span class="nav-text">熔炉（同上）</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E7%85%A4%E7%82%AD%EF%BC%88%E5%90%8C%E4%B8%8A%EF%BC%89"><span class="nav-number">5.</span> <span class="nav-text">煤炭（同上）</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E5%A4%A7%E9%BA%A6%EF%BC%88%E5%90%8C%E4%B8%8A%EF%BC%89"><span class="nav-number">6.</span> <span class="nav-text">大麦（同上）</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E6%A0%91%E6%B6%B2%EF%BC%88%E5%90%8C%E4%B8%8A%EF%BC%89"><span class="nav-number">7.</span> <span class="nav-text">树液（同上）</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%BD%93%E9%AA%8C%E5%A2%9E%E5%BC%BA"><span class="nav-number"></span> <span class="nav-text">体验增强</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#HUD"><span class="nav-number"></span> <span class="nav-text">HUD</span></a></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%BD%93%E9%AA%8C%E5%A2%9E%E5%BC%BA"><span class="nav-number">1.</span> <span class="nav-text">体验增强</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#%E5%BB%BA%E7%AD%91"><span class="nav-number">1.1.</span> <span class="nav-text">建筑</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%87%AA%E5%8A%A8%E5%8C%96%E7%9B%B8%E5%85%B3"><span class="nav-number">2.</span> <span class="nav-text">自动化相关</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#%E8%9C%82%E8%9C%9C"><span class="nav-number">2.1.</span> <span class="nav-text">蜂蜜</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E5%8F%91%E9%85%B5%E6%A1%B6%EF%BC%88%E5%90%8C%E4%B8%8A%EF%BC%89"><span class="nav-number">2.2.</span> <span class="nav-text">发酵桶（同上）</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E7%81%AB%E7%82%AC%EF%BC%88%E5%90%8C%E4%B8%8A%EF%BC%89"><span class="nav-number">2.3.</span> <span class="nav-text">火炬（同上）</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E7%86%94%E7%82%89%EF%BC%88%E5%90%8C%E4%B8%8A%EF%BC%89"><span class="nav-number">2.4.</span> <span class="nav-text">熔炉（同上）</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E7%85%A4%E7%82%AD%EF%BC%88%E5%90%8C%E4%B8%8A%EF%BC%89"><span class="nav-number">2.5.</span> <span class="nav-text">煤炭（同上）</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E5%A4%A7%E9%BA%A6%EF%BC%88%E5%90%8C%E4%B8%8A%EF%BC%89"><span class="nav-number">2.6.</span> <span class="nav-text">大麦（同上）</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E6%A0%91%E6%B6%B2%EF%BC%88%E5%90%8C%E4%B8%8A%EF%BC%89"><span class="nav-number">2.7.</span> <span class="nav-text">树液（同上）</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#HUD"><span class="nav-number">3.</span> <span class="nav-text">HUD</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#MAP"><span class="nav-number">4.</span> <span class="nav-text">MAP</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -228,7 +228,18 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><span id="more"></span>
+    <div class="post-body" itemprop="articleBody"><h5 id="体验增强"><a href="#体验增强" class="headerlink" title="体验增强"></a>体验增强</h5><ul>
+<li>防止食物随时间降解，换句话说，它在耗尽之前保持其最大效益，而不是随时间减少其效果</li>
+<li>物品重量-30%</li>
+<li>物品堆叠+50%</li>
+<li>自动拾取距离翻倍</li>
+<li>摸制作台自动修复身上物品</li>
+<li>缩短传送时间</li>
+<li>传送携带物品限制解除</li>
+<li>启动统一建筑网格<br>启用网格对齐的键（RightAlt）<br>切换网格对齐的键（F7）<br>更改默认对齐的键（F6）</li>
+<li>制作从附近箱子获取素材，有工作台以工作台为中心（20格）</li>
+<li>喊话全图可见<span id="more"></span></li>
+</ul>
 <h6 id="建筑"><a href="#建筑" class="headerlink" title="建筑"></a>建筑</h6><ul>
 <li>建筑摧毁全返还</li>
 <li>建筑修复锤子范围生效（5m）</li>
@@ -257,23 +268,10 @@
 <li>生产放置到附近箱子 10格</li>
 <li>无自动填充原料</li>
 </ul>
-<h6 id="树液（同上）"><a href="#树液（同上）" class="headerlink" title="树液（同上）"></a>树液（同上）</h6><h5 id="体验增强"><a href="#体验增强" class="headerlink" title="体验增强"></a>体验增强</h5><ul>
-<li>防止食物随时间降解，换句话说，它在耗尽之前保持其最大效益，而不是随时间减少其效果</li>
-<li>物品重量-30%</li>
-<li>物品堆叠+50%</li>
-<li>自动拾取距离翻倍</li>
-<li>摸制作台自动修复身上物品</li>
-<li>缩短传送时间</li>
-<li>传送携带物品限制解除</li>
-<li>启动统一建筑网格<br>启用网格对齐的键（RightAlt）<br>切换网格对齐的键（F7）<br>更改默认对齐的键（F6）</li>
-<li>制作从附近箱子获取素材，有工作台以工作台为中心（20格）</li>
-<li>喊话全图可见</li>
-</ul>
-<h5 id="HUD"><a href="#HUD" class="headerlink" title="HUD"></a>HUD</h5><ul>
+<h6 id="树液（同上）"><a href="#树液（同上）" class="headerlink" title="树液（同上）"></a>树液（同上）</h6><h5 id="HUD"><a href="#HUD" class="headerlink" title="HUD"></a>HUD</h5><ul>
 <li>建造模式显示需要素材数量</li>
 </ul>
-<p>MAP</p>
-<ul>
+<h5 id="MAP"><a href="#MAP" class="headerlink" title="MAP"></a>MAP</h5><ul>
 <li>共享探索进度</li>
 <li>共享标记</li>
 <li>显示地图上的船只和手推车</li>
