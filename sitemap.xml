@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://amiibot.com/2026/03/05/279202f6b6f7.html</loc>
+    <loc>https://amiibot.com/2026/03/05/085b07d9774a.html</loc>
     
     <lastmod>2026-03-05</lastmod>
     
@@ -56,41 +56,6 @@
 
   
   <url>
-    <loc>https://amiibot.com/tags/OpenClaw/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://amiibot.com/tags/AI%E5%8A%A9%E6%89%8B/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://amiibot.com/tags/%E5%B1%80%E5%9F%9F%E7%BD%91%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://amiibot.com/tags/%E8%87%AA%E6%89%98%E7%AE%A1/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://amiibot.com/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://amiibot.com/tags/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -125,24 +90,52 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://amiibot.com/tags/OpenClaw/</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://amiibot.com/tags/AI%E5%8A%A9%E6%89%8B/</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://amiibot.com/tags/%E5%B1%80%E5%9F%9F%E7%BD%91%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://amiibot.com/tags/%E8%87%AA%E6%89%98%E7%AE%A1/</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://amiibot.com/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
-    <loc>https://amiibot.com/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://amiibot.com/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/AI%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://amiibot.com/categories/game/</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://amiibot.com/categories/technology/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -156,7 +149,21 @@
   </url>
   
   <url>
+    <loc>https://amiibot.com/categories/technology/AI%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://amiibot.com/categories/game/%E6%B8%B8%E6%88%8F%E6%94%BB%E7%95%A5/%E8%8B%B1%E7%81%B5%E7%A5%9E%E6%AE%BF/</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://amiibot.com/categories/technology/AI%E5%B7%A5%E5%85%B7/openclaw/</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
